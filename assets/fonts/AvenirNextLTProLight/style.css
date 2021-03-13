@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'AvenirNextLTProLight';
+  src: url('/path-to/AvenirNextLTProLight.woff2') format('woff2'),
+       url('/path-to/AvenirNextLTProLight.woff') format('woff'),
+       url('/path-to/AvenirNextLTProLight.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'AvenirNextLTProLight', sans-serif;
+}

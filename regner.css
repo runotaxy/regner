@@ -3,6 +3,52 @@
   --menu_button_size : 30px;
 }
 
+@font-face {
+  font-family: 'AvenirNextLTProBold';
+  src: url('assets/fonts/AvenirNextLTProBold/AvenirNextLTProBold.woff2') format('woff2'),
+       url('assets/fonts/AvenirNextLTProBold/AvenirNextLTProBold.woff') format('woff'),
+       url('assets/fonts/AvenirNextLTProBold/AvenirNextLTProBold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'AvenirNextLTProLight';
+  src: url('assets/fonts/AvenirNextLTProLight/AvenirNextLTProLight.woff2') format('woff2'),
+       url('assets/fonts/AvenirNextLTProLight/AvenirNextLTProLight.woff') format('woff'),
+       url('assets/fonts/AvenirNextLTProLight/AvenirNextLTProLight.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'AvenirNextLTProMedium';
+  src: url('assets/fonts/AvenirNextLTProMedium/AvenirNextLTProMedium.woff2') format('woff2'),
+       url('assets/fonts/AvenirNextLTProMedium/AvenirNextLTProMedium.woff') format('woff'),
+       url('assets/fonts/AvenirNextLTProMedium/AvenirNextLTProMedium.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'AvenirNextLTProRegular';
+  src: url('assets/fonts/AvenirNextLTProRegular/AvenirNextLTProRegular.woff2') format('woff2'),
+       url('assets/fonts/AvenirNextLTProRegular/AvenirNextLTProRegular.woff') format('woff'),
+       url('assets/fonts/AvenirNextLTProRegular/AvenirNextLTProRegular.ttf')  format('truetype');
+}
+
+
+/*
+font-family: 'AvenirNextLTProBold', sans-serif;
+font-family: 'AvenirNextLTProLight', sans-serif;
+font-family: 'AvenirNextLTProMedium', sans-serif;
+font-family: 'AvenirNextLTProRegular', sans-serif;
+*/
+
+.font_regular {
+	font-family: 'AvenirNextLTProRegular', sans-serif;
+}
+.font_light {
+	font-family: 'AvenirNextLTProLight', sans-serif;
+}
+.font_medium {
+	font-family: 'AvenirNextLTProMedium', sans-serif;
+}
+.font_bold {
+	font-family: 'AvenirNextLTProBold', sans-serif;
+}
+
 * { box-sizing: border-box; }
 body {
 	padding:0px;
@@ -10,6 +56,7 @@ body {
 	background-image: url(https://picsum.photos/300/300);
 	background-position: top right;
 	background-repeat: no-repeat;
+	font-family: 'AvenirNextLTProRegular', sans-serif;
 }
 
 
