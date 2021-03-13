@@ -96,7 +96,7 @@ section#welcome .row:nth-of-type(3) .col {
 	justify-content: center;
 	display: flex;
 	padding:0px;
-	height: calc( 100vh - ( 350px + 150px ) );
+	height: calc( 100vh - ( 350px + 200px ) );
 	align-items: flex-end;
 }
 
