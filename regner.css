@@ -170,3 +170,74 @@ section#welcome .row:nth-of-type(3) .col {
 .scroll_arrow .inner svg {
 	fill: var(--primary)
 }
+
+section#lets_renew {
+	background-image: url("assets/regner_firstsection_background_pattern.svg");
+	background-repeat: no-repeat;
+	background-position: -300px 120px;
+	min-height: 1000px;
+	margin-top: 100px;
+}
+
+.product_box {
+	padding:50px;
+}
+.product_box .product_image {
+	width:100%;
+	height:200px;
+	background:url(https://picsum.photos/1000/600);
+	background-size: cover;
+}
+.product_box .product_description {
+	background:var(--primary);
+	padding:30px;
+	color: #fff;
+}
+
+.product_box .product_description .heading {
+	font-size: 12px;
+}
+
+.product_box .product_description form {
+	margin-top: 30px;
+}
+.product_box .product_description form input {
+	background:none;
+	border:none;
+	outline:none;
+	color: #fff;
+	padding:10px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 10px;
+	width: 100%;
+	padding-left: 0px;
+	font-family: 'AvenirNextLTProLight', sans-serif;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255,255,255,.8);
+  opacity: 1; /* Firefox */
+  font-family: 'AvenirNextLTProLight', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(255,255,255,.8);
+  font-family: 'AvenirNextLTProLight', sans-serif;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(255,255,255,.8);
+  font-family: 'AvenirNextLTProLight', sans-serif;
+}
+
+.product_box .product_description form button {
+	width: 100%;
+	padding:0px;
+	color: #fff;
+	border:1px solid #fff;
+	background:none;
+	border-radius: none;
+	padding:10px;
+	font-size: 12px;
+	margin-top: 30px;
+}
