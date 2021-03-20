@@ -410,10 +410,10 @@ section#interactive_background .layer_1 {
   mask-repeat: space;
 }
 section#interactive_background .layer_2 {
-	width: 300px;
+	width: 302px;
 	height: 300px;
 	position: absolute;
 	top: 0px;
-	right:1px;
+	right:0px;
 }
 section#interactive_background .layer_2 svg {}
