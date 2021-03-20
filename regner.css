@@ -49,14 +49,11 @@ font-family: 'AvenirNextLTProRegular', sans-serif;
 	font-family: 'AvenirNextLTProBold', sans-serif;
 }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; position: relative;}
 body {
 	padding:0px;
 	margin:0px;
-	background-image: url(https://picsum.photos/300/300);
-	/*background-image: url(assets/regner_hero_02.jpg);*/
-	background-position: top right;
-	background-repeat: no-repeat;
+	background-color: #FAF9F0;
 	font-family: 'AvenirNextLTProRegular', sans-serif;
 }
 
@@ -110,15 +107,8 @@ section#welcome .menu_button svg {
 	flex-wrap: wrap;
 	margin-top: -15px;
 }
-.logo .tr {
-	border: 10px solid var(--primary);
-	width: 10px;
-	height: 10px;
-	border-top:10px solid transparent;
-	border-right:10px solid transparent;
-	border-bottom:10px solid transparent;
-	transform:rotate(315deg);
-	margin-right: -7px;
+.home_mobile_logo {
+	fill:var(--primary);
 }
 
 section#welcome .row:nth-of-type(2) .col {
@@ -393,3 +383,36 @@ section#footer {
 .footer_logo img {
 	width: 30px;
 }
+
+
+
+
+
+
+section#interactive_background {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 300px;
+}
+section#interactive_background .layer_1 {
+	width: 300px;
+	height: 300px;
+	/*background-image: url("https://picsum.photos/1000/600");*/
+	background-image: url(assets/regner_hero.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	mask-image:url("assets/regner_white_single_logo.svg"), linear-gradient(-45deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 50%);
+  mask-repeat: space;
+}
+section#interactive_background .layer_2 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+section#interactive_background .layer_2 svg {}
