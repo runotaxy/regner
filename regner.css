@@ -425,7 +425,7 @@ section#drawer {
 	right: -100vw;
 	top: 0px;
 	z-index: 999999;
-	transition: all 0.6s ease-out;
+	transition: all 0.3s ease-in-out;
 }
 
 section#drawer.active {
@@ -459,13 +459,33 @@ section#drawer.active .menu {
 	background-color: var(--primary);
 }
 
+.menu_header {
+	display: flex;
+	width: 100%;
+	padding:50px;
+}
+
+.menu_header .col {
+	width: 50%;
+}
+.menu_header .col:nth-of-type(2) {
+	padding-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu_header .col:nth-of-type(2) svg {
+	fill: #fff;
+}
+
 .menu_links {
 	padding:30px 50px;
+	padding-top: 10px;
+	flex-grow: 1;
 }
 .menu_links a {
 	color: #fff;
 	display: block;
-	font-size: 28px;
+	font-size: 35px;
 	margin-bottom: 5px;
 	text-decoration: none;
 }
