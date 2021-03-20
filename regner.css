@@ -197,6 +197,7 @@ section#lets_renew {
 .product_box .product_description form input {
 	background:none;
 	border:none;
+	border-radius: 0px;
 	outline:none;
 	color: #fff;
 	padding:10px;
