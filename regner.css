@@ -136,7 +136,7 @@ section#welcome .row:nth-of-type(3) .col {
 	justify-content: center;
 	display: flex;
 	padding:0px;
-	height: calc( 100vh - ( 350px + 200px ) );
+	height: calc( 100vh - ( 350px + 300px ) );
 	align-items: flex-end;
 }
 
@@ -414,6 +414,6 @@ section#interactive_background .layer_2 {
 	height: 300px;
 	position: absolute;
 	top: 0px;
-	right:0px;
+	right:1px;
 }
 section#interactive_background .layer_2 svg {}
