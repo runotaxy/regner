@@ -417,3 +417,75 @@ section#interactive_background .layer_2 {
 	right:0px;
 }
 section#interactive_background .layer_2 svg {}
+
+section#drawer {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	right: -100vw;
+	top: 0px;
+	z-index: 999999;
+	transition: all 0.6s ease-out;
+}
+
+section#drawer.active {
+	right: 0px;
+}
+
+section#drawer .blur_part {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+}
+
+section#drawer .menu {
+	background-image: url("assets/regner_menu_pattern.svg");
+	background-position: 100px 0px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: all 0.6s ease-out;
+}
+
+section#drawer.active .menu {
+	background-color: var(--primary);
+}
+
+.menu_links {
+	padding:30px 50px;
+}
+.menu_links a {
+	color: #fff;
+	display: block;
+	font-size: 28px;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+.menu_links a.active {
+	font-weight: 900;
+	font-family: 'AvenirNextLTProBold', sans-serif;
+}
+
+.menu_social_links {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 30px;
+}
+.menu_social_links a {
+	width: 30px;
+	margin-left: 10px;
+}
+.menu_social_links a svg {
+	fill:#fff;
+	width: 24px;
+	height:24px;
+}
